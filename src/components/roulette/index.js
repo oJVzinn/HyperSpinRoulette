@@ -57,7 +57,7 @@ export default function Roulette() {
 
         isRolling = true
         const prizeElements = document.querySelectorAll(`.${styles.slice}`);
-        const totalElements = prizeElements.length; // Número total de prêmios
+        const totalElements = prizeElements.length;
 
         prizeElements.forEach((prize, index) => {
             prize.style.transition = "transform 1s ease-in-out";
